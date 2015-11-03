@@ -1,0 +1,198 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 39;
+	objects = {
+		00E6828EFEC88D1A11DB9C8B = {
+			buildSettings = {
+			};
+			buildStyles = (
+				130F8B95001BDF0A11CA292A,
+				130F8B96001BDF0A11CA292A,
+			);
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = 00E6828FFEC88D1A11DB9C8B;
+			productRefGroup = 0120612AFEC8923411DB9C8B;
+			projectDirPath = "";
+			targets = (
+				130F8B90001BDF0A11CA292A,
+			);
+		};
+		00E6828FFEC88D1A11DB9C8B = {
+			children = (
+				010341B7FEEF030011DB9C8B,
+				F527B8EF0340CEDD011B268F,
+				6A8008AE02C7B68F0CC91562,
+				0120612AFEC8923411DB9C8B,
+			);
+			isa = PBXGroup;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//000
+//001
+//002
+//003
+//004
+//010
+//011
+//012
+//013
+//014
+		010341B7FEEF030011DB9C8B = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = SimpleExample.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0120612AFEC8923411DB9C8B = {
+			children = (
+				F551FE490395AEBD01C917B9,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//010
+//011
+//012
+//013
+//014
+//130
+//131
+//132
+//133
+//134
+		130F8B90001BDF0A11CA292A = {
+			buildPhases = (
+				130F8B91001BDF0A11CA292A,
+				130F8B93001BDF0A11CA292A,
+				130F8B94001BDF0A11CA292A,
+			);
+			buildSettings = {
+				INSTALL_PATH = /Developer/Examples/Java/JFC/SimpleExample;
+				JAVA_ARCHIVE_CLASSES = YES;
+				JAVA_ARCHIVE_COMPRESSION = NO;
+				JAVA_ARCHIVE_TYPE = JAR;
+				JAVA_COMPILER = /usr/bin/javac;
+				JAVA_MANIFEST_FILE = Manifest;
+				JAVA_SOURCE_SUBDIR = .;
+				PRODUCT_NAME = SimpleExample;
+				PURE_JAVA = YES;
+				REZ_EXECUTABLE = YES;
+			};
+			dependencies = (
+			);
+			isa = PBXToolTarget;
+			name = SimpleExample;
+			productInstallPath = /Developer/Examples/Java/JFC/SimpleExample;
+			productName = SimpleExample;
+			productReference = F551FE490395AEBD01C917B9;
+		};
+		130F8B91001BDF0A11CA292A = {
+			buildActionMask = 2147483647;
+			files = (
+				130F8B92001BDF0A11CA292A,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		130F8B92001BDF0A11CA292A = {
+			fileRef = 010341B7FEEF030011DB9C8B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		130F8B93001BDF0A11CA292A = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXJavaArchiveBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		130F8B94001BDF0A11CA292A = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		130F8B95001BDF0A11CA292A = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				ZERO_LINK = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		130F8B96001BDF0A11CA292A = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				ZERO_LINK = NO;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+//130
+//131
+//132
+//133
+//134
+//6A0
+//6A1
+//6A2
+//6A3
+//6A4
+		6A8008AE02C7B68F0CC91562 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = Manifest;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//6A0
+//6A1
+//6A2
+//6A3
+//6A4
+//F50
+//F51
+//F52
+//F53
+//F54
+		F527B8EF0340CEDD011B268F = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = README.txt;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F551FE490395AEBD01C917B9 = {
+			explicitFileType = "compiled.mach-o.executable";
+			fallbackIsa = PBXFileReference;
+			includeInIndex = 0;
+			isa = PBXZipArchiveReference;
+			path = SimpleExample.jar;
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+	};
+	rootObject = 00E6828EFEC88D1A11DB9C8B;
+}

@@ -1,0 +1,1874 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 39;
+	objects = {
+		00E6828EFEC88D1A11DB9C8B = {
+			buildSettings = {
+			};
+			buildStyles = (
+				130F8B95001BDF0A11CA292A,
+				130F8B96001BDF0A11CA292A,
+			);
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = 00E6828FFEC88D1A11DB9C8B;
+			productRefGroup = 0120612AFEC8923411DB9C8B;
+			projectDirPath = "";
+			targets = (
+				130F8B90001BDF0A11CA292A,
+			);
+		};
+		00E6828FFEC88D1A11DB9C8B = {
+			children = (
+				F55BF4D50340F75F01F32E98,
+				F55BF5210340F76001F32E98,
+				F55BF4B30340F75F01F32E98,
+				F55BF4B50340F75F01F32E98,
+				F55BF5220340F76001F32E98,
+				6A8008AE02C7B68F0CC91562,
+				0120612AFEC8923411DB9C8B,
+			);
+			isa = PBXGroup;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//000
+//001
+//002
+//003
+//004
+//010
+//011
+//012
+//013
+//014
+		0120612AFEC8923411DB9C8B = {
+			children = (
+				6A9ED92C02B0286D0CC91562,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//010
+//011
+//012
+//013
+//014
+//130
+//131
+//132
+//133
+//134
+		130F8B90001BDF0A11CA292A = {
+			buildPhases = (
+				130F8B91001BDF0A11CA292A,
+				130F8B93001BDF0A11CA292A,
+				130F8B94001BDF0A11CA292A,
+				6A0644BC02C7C42C0CC91562,
+			);
+			buildSettings = {
+				DISABLE_PARALLEL_BUILDING = YES;
+				INSTALL_PATH = /Developer/Examples/Java/JFC/Java2D;
+				JAVA_ARCHIVE_CLASSES = YES;
+				JAVA_ARCHIVE_COMPRESSION = NO;
+				JAVA_ARCHIVE_TYPE = JAR;
+				JAVA_COMPILER = /usr/bin/javac;
+				JAVA_MANIFEST_FILE = Manifest;
+				JAVA_SOURCE_SUBDIR = .;
+				PRODUCT_NAME = Java2D;
+				PURE_JAVA = YES;
+				REZ_EXECUTABLE = YES;
+			};
+			dependencies = (
+			);
+			isa = PBXToolTarget;
+			name = Java2D;
+			productInstallPath = /Developer/Examples/Java/JFC/Java2D;
+			productName = Java2D;
+			productReference = 6A9ED92C02B0286D0CC91562;
+		};
+		130F8B91001BDF0A11CA292A = {
+			buildActionMask = 2147483647;
+			files = (
+				F55BF5430340F76001F32E98,
+				F55BF5440340F76001F32E98,
+				F55BF5450340F76001F32E98,
+				F55BF5460340F76001F32E98,
+				F55BF5470340F76001F32E98,
+				F55BF5480340F76001F32E98,
+				F55BF5490340F76001F32E98,
+				F55BF54A0340F76001F32E98,
+				F55BF54B0340F76001F32E98,
+				F55BF54C0340F76001F32E98,
+				F55BF54D0340F76001F32E98,
+				F55BF54E0340F76001F32E98,
+				F55BF54F0340F76001F32E98,
+				F55BF5500340F76001F32E98,
+				F55BF5510340F76001F32E98,
+				F55BF5520340F76001F32E98,
+				F55BF5530340F76001F32E98,
+				F55BF5540340F76001F32E98,
+				F55BF5550340F76001F32E98,
+				F55BF5560340F76001F32E98,
+				F55BF5570340F76001F32E98,
+				F55BF5580340F76001F32E98,
+				F55BF5590340F76001F32E98,
+				F55BF55A0340F76001F32E98,
+				F55BF55B0340F76001F32E98,
+				F55BF55C0340F76001F32E98,
+				F55BF55D0340F76001F32E98,
+				F55BF55E0340F76001F32E98,
+				F55BF55F0340F76001F32E98,
+				F55BF5600340F76001F32E98,
+				F55BF5610340F76001F32E98,
+				F55BF5620340F76001F32E98,
+				F55BF5630340F76001F32E98,
+				F55BF5640340F76001F32E98,
+				F55BF5650340F76001F32E98,
+				F55BF5660340F76001F32E98,
+				F55BF5670340F76001F32E98,
+				F55BF5680340F76001F32E98,
+				F55BF5690340F76001F32E98,
+				F55BF56A0340F76001F32E98,
+				F55BF56B0340F76001F32E98,
+				F55BF56C0340F76001F32E98,
+				F55BF56D0340F76001F32E98,
+				F55BF56E0340F76001F32E98,
+				F55BF56F0340F76001F32E98,
+				F55BF5700340F76001F32E98,
+				F55BF5710340F76001F32E98,
+				F55BF5720340F76001F32E98,
+				F55BF5730340F76001F32E98,
+				F55BF5740340F76001F32E98,
+				F55BF5750340F76001F32E98,
+				F55BF5760340F76001F32E98,
+				F55BF5770340F76001F32E98,
+				F55BF5780340F76001F32E98,
+				F55BF5790340F76001F32E98,
+				F55BF57A0340F76001F32E98,
+				F55BF57B0340F76001F32E98,
+				F55BF57C0340F76001F32E98,
+				F55BF57D0340F76001F32E98,
+				F55BF57E0340F76001F32E98,
+				F55BF57F0340F76001F32E98,
+				F55BF5800340F76001F32E98,
+				F55BF5810340F76001F32E98,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		130F8B93001BDF0A11CA292A = {
+			buildActionMask = 2147483647;
+			files = (
+				F55BF5230340F76001F32E98,
+				F55BF5240340F76001F32E98,
+				F55BF5250340F76001F32E98,
+				F55BF5260340F76001F32E98,
+				F55BF5270340F76001F32E98,
+				F55BF5280340F76001F32E98,
+				F55BF5290340F76001F32E98,
+				F55BF52A0340F76001F32E98,
+				F55BF52B0340F76001F32E98,
+				F55BF52C0340F76001F32E98,
+				F55BF52D0340F76001F32E98,
+				F55BF52E0340F76001F32E98,
+				F55BF52F0340F76001F32E98,
+				F55BF5300340F76001F32E98,
+				959895FD06558B4200EBDC0C,
+				959895FE06558B4200EBDC0C,
+				F55BF5330340F76001F32E98,
+				F55BF5340340F76001F32E98,
+				F55BF5350340F76001F32E98,
+				F55BF5360340F76001F32E98,
+				F55BF5370340F76001F32E98,
+				F55BF5380340F76001F32E98,
+				F55BF5390340F76001F32E98,
+				F55BF53A0340F76001F32E98,
+				F55BF53B0340F76001F32E98,
+				F55BF53C0340F76001F32E98,
+				F55BF53D0340F76001F32E98,
+				F55BF53E0340F76001F32E98,
+				F55BF53F0340F76001F32E98,
+				F55BF5400340F76001F32E98,
+				F55BF5410340F76001F32E98,
+				F55BF5420340F76001F32E98,
+			);
+			isa = PBXJavaArchiveBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		130F8B94001BDF0A11CA292A = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		130F8B95001BDF0A11CA292A = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				ZERO_LINK = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		130F8B96001BDF0A11CA292A = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				ZERO_LINK = NO;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+//130
+//131
+//132
+//133
+//134
+//6A0
+//6A1
+//6A2
+//6A3
+//6A4
+		6A0644BC02C7C42C0CC91562 = {
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				F551FE4F0398212401C917B9,
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A8008AE02C7B68F0CC91562 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = Manifest;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		6A9ED92C02B0286D0CC91562 = {
+			explicitFileType = "compiled.mach-o.executable";
+			fallbackIsa = PBXFileReference;
+			includeInIndex = 0;
+			isa = PBXZipArchiveReference;
+			path = Java2D.jar;
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+//6A0
+//6A1
+//6A2
+//6A3
+//6A4
+//950
+//951
+//952
+//953
+//954
+		959895FB06558B4200EBDC0C = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.png;
+			path = java_logo.png;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		959895FC06558B4200EBDC0C = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.gif;
+			path = "java-logo.gif";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		959895FD06558B4200EBDC0C = {
+			fileRef = 959895FB06558B4200EBDC0C;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = images;
+			};
+		};
+		959895FE06558B4200EBDC0C = {
+			fileRef = 959895FC06558B4200EBDC0C;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = images;
+			};
+		};
+//950
+//951
+//952
+//953
+//954
+//F50
+//F51
+//F52
+//F53
+//F54
+		F551FE4F0398212401C917B9 = {
+			fileRef = F55BF5210340F76001F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF4B30340F75F01F32E98 = {
+			children = (
+				F55BF4B40340F75F01F32E98,
+			);
+			isa = PBXGroup;
+			path = fonts;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4B40340F75F01F32E98 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			path = A.ttf;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4B50340F75F01F32E98 = {
+			children = (
+				F55BF4B60340F75F01F32E98,
+				F55BF4B70340F75F01F32E98,
+				F55BF4B80340F75F01F32E98,
+				F55BF4B90340F75F01F32E98,
+				F55BF4BA0340F75F01F32E98,
+				F55BF4BB0340F75F01F32E98,
+				F55BF4BC0340F75F01F32E98,
+				F55BF4BD0340F75F01F32E98,
+				F55BF4BE0340F75F01F32E98,
+				F55BF4BF0340F75F01F32E98,
+				F55BF4C00340F75F01F32E98,
+				F55BF4C10340F75F01F32E98,
+				F55BF4C20340F75F01F32E98,
+				959895FB06558B4200EBDC0C,
+				959895FC06558B4200EBDC0C,
+				F55BF4C50340F75F01F32E98,
+				F55BF4C60340F75F01F32E98,
+				F55BF4C70340F75F01F32E98,
+				F55BF4C80340F75F01F32E98,
+				F55BF4C90340F75F01F32E98,
+				F55BF4CA0340F75F01F32E98,
+				F55BF4CB0340F75F01F32E98,
+				F55BF4CC0340F75F01F32E98,
+				F55BF4CD0340F75F01F32E98,
+				F55BF4CE0340F75F01F32E98,
+				F55BF4CF0340F75F01F32E98,
+				F55BF4D00340F75F01F32E98,
+				F55BF4D10340F75F01F32E98,
+				F55BF4D20340F75F01F32E98,
+				F55BF4D30340F75F01F32E98,
+				F55BF4D40340F75F01F32E98,
+			);
+			isa = PBXGroup;
+			path = images;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4B60340F75F01F32E98 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.jpeg;
+			path = bld.jpg;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4B70340F75F01F32E98 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.png;
+			path = boat.png;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4B80340F75F01F32E98 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.gif;
+			path = box.gif;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4B90340F75F01F32E98 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.gif;
+			path = boxwave.gif;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4BA0340F75F01F32E98 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.gif;
+			path = clone.gif;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4BB0340F75F01F32E98 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.jpeg;
+			path = clouds.jpg;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4BC0340F75F01F32E98 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.gif;
+			path = cupanim.gif;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4BD0340F75F01F32E98 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.gif;
+			path = duke.gif;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4BE0340F75F01F32E98 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.png;
+			path = duke.png;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4BF0340F75F01F32E98 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.gif;
+			path = duke.running.gif;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4C00340F75F01F32E98 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.gif;
+			path = dukeplug.gif;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4C10340F75F01F32E98 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.gif;
+			path = fight.gif;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4C20340F75F01F32E98 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.gif;
+			path = globe.gif;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4C50340F75F01F32E98 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.png;
+			path = jumptojavastrip.png;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4C60340F75F01F32E98 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.gif;
+			path = loop.gif;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4C70340F75F01F32E98 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.gif;
+			path = looping.gif;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4C80340F75F01F32E98 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.gif;
+			path = magnify.gif;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4C90340F75F01F32E98 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.gif;
+			path = painting.gif;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4CA0340F75F01F32E98 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.gif;
+			path = print.gif;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4CB0340F75F01F32E98 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.gif;
+			path = remove.gif;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4CC0340F75F01F32E98 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.gif;
+			path = snooze.gif;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4CD0340F75F01F32E98 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.gif;
+			path = star7.gif;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4CE0340F75F01F32E98 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.gif;
+			path = start.gif;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4CF0340F75F01F32E98 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.gif;
+			path = start2.gif;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4D00340F75F01F32E98 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.gif;
+			path = stop.gif;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4D10340F75F01F32E98 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.gif;
+			path = stop2.gif;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4D20340F75F01F32E98 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.gif;
+			path = surfing.gif;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4D30340F75F01F32E98 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.gif;
+			path = thumbsup.gif;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4D40340F75F01F32E98 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.gif;
+			path = tip.gif;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4D50340F75F01F32E98 = {
+			children = (
+				F55BF4D60340F75F01F32E98,
+				F55BF4D70340F75F01F32E98,
+				F55BF4D80340F75F01F32E98,
+				F55BF4D90340F75F01F32E98,
+				F55BF4DA0340F75F01F32E98,
+				F55BF4DB0340F75F01F32E98,
+				F55BF4DC0340F75F01F32E98,
+				F55BF4DD0340F75F01F32E98,
+				F55BF4DE0340F75F01F32E98,
+				F55BF4DF0340F75F01F32E98,
+				F55BF4E00340F75F01F32E98,
+				F55BF4E10340F75F01F32E98,
+				F55BF5160340F76001F32E98,
+				F55BF5170340F76001F32E98,
+				F55BF5180340F76001F32E98,
+				F55BF5190340F76001F32E98,
+				F55BF51A0340F76001F32E98,
+				F55BF51B0340F76001F32E98,
+				F55BF51C0340F76001F32E98,
+				F55BF51D0340F76001F32E98,
+				F55BF51E0340F76001F32E98,
+				F55BF51F0340F76001F32E98,
+				F55BF5200340F76001F32E98,
+			);
+			isa = PBXGroup;
+			path = java2d;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4D60340F75F01F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = AnimatingContext.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4D70340F75F01F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = AnimatingControlsSurface.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4D80340F75F01F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = AnimatingSurface.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4D90340F75F01F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = CloningFeature.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4DA0340F75F01F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = ControlsSurface.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4DB0340F75F01F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = CustomControls.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4DC0340F75F01F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = CustomControlsContext.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4DD0340F75F01F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = DemoFonts.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4DE0340F75F01F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = DemoGroup.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4DF0340F75F01F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = DemoImages.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4E00340F75F01F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = DemoPanel.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4E10340F75F01F32E98 = {
+			children = (
+				F55BF4E20340F75F01F32E98,
+				F55BF4E70340F75F01F32E98,
+				F55BF4EC0340F75F01F32E98,
+				F55BF4F00340F75F01F32E98,
+				F55BF4F40340F75F01F32E98,
+				F55BF4FA0340F75F01F32E98,
+				F55BF4FF0340F75F01F32E98,
+				F55BF5040340F75F01F32E98,
+				F55BF5080340F75F01F32E98,
+				F55BF50D0340F76001F32E98,
+				F55BF5120340F76001F32E98,
+			);
+			isa = PBXGroup;
+			path = demos;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4E20340F75F01F32E98 = {
+			children = (
+				F55BF4E30340F75F01F32E98,
+				F55BF4E40340F75F01F32E98,
+				F55BF4E50340F75F01F32E98,
+				F55BF4E60340F75F01F32E98,
+			);
+			isa = PBXGroup;
+			path = Arcs_Curves;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4E30340F75F01F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Arcs.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4E40340F75F01F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = BezierAnim.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4E50340F75F01F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Curves.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4E60340F75F01F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Ellipses.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4E70340F75F01F32E98 = {
+			children = (
+				F55BF4E80340F75F01F32E98,
+				F55BF4E90340F75F01F32E98,
+				F55BF4EA0340F75F01F32E98,
+				F55BF4EB0340F75F01F32E98,
+			);
+			isa = PBXGroup;
+			path = Clipping;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4E80340F75F01F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Areas.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4E90340F75F01F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = ClipAnim.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4EA0340F75F01F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Intersection.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4EB0340F75F01F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Text.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4EC0340F75F01F32E98 = {
+			children = (
+				F55BF4ED0340F75F01F32E98,
+				F55BF4EE0340F75F01F32E98,
+				F55BF4EF0340F75F01F32E98,
+			);
+			isa = PBXGroup;
+			path = Colors;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4ED0340F75F01F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = BullsEye.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4EE0340F75F01F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = ColorConvert.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4EF0340F75F01F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Rotator3D.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4F00340F75F01F32E98 = {
+			children = (
+				F55BF4F10340F75F01F32E98,
+				F55BF4F20340F75F01F32E98,
+				F55BF4F30340F75F01F32E98,
+			);
+			isa = PBXGroup;
+			path = Composite;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4F10340F75F01F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = ACimages.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4F20340F75F01F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = ACrules.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4F30340F75F01F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = FadeAnim.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4F40340F75F01F32E98 = {
+			children = (
+				F55BF4F50340F75F01F32E98,
+				F55BF4F60340F75F01F32E98,
+				F55BF4F70340F75F01F32E98,
+				F55BF4F80340F75F01F32E98,
+				F55BF4F90340F75F01F32E98,
+			);
+			isa = PBXGroup;
+			path = Fonts;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4F50340F75F01F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = AllFonts.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4F60340F75F01F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = AttributedStr.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4F70340F75F01F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Highlighting.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4F80340F75F01F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Outline.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4F90340F75F01F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Tree.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4FA0340F75F01F32E98 = {
+			children = (
+				F55BF4FB0340F75F01F32E98,
+				F55BF4FC0340F75F01F32E98,
+				F55BF4FD0340F75F01F32E98,
+				F55BF4FE0340F75F01F32E98,
+			);
+			isa = PBXGroup;
+			path = Images;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4FB0340F75F01F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = DukeAnim.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4FC0340F75F01F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = ImageOps.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4FD0340F75F01F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = JPEGFlip.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4FE0340F75F01F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = WarpImage.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF4FF0340F75F01F32E98 = {
+			children = (
+				F55BF5000340F75F01F32E98,
+				F55BF5010340F75F01F32E98,
+				F55BF5020340F75F01F32E98,
+				F55BF5030340F75F01F32E98,
+			);
+			isa = PBXGroup;
+			path = Lines;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF5000340F75F01F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Caps.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF5010340F75F01F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Dash.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF5020340F75F01F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Joins.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF5030340F75F01F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = LineAnim.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF5040340F75F01F32E98 = {
+			children = (
+				F55BF5050340F75F01F32E98,
+				F55BF5060340F75F01F32E98,
+				F55BF5070340F75F01F32E98,
+			);
+			isa = PBXGroup;
+			path = Mix;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF5050340F75F01F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Balls.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF5060340F75F01F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = BezierScroller.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF5070340F75F01F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Stars3D.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF5080340F75F01F32E98 = {
+			children = (
+				F55BF5090340F75F01F32E98,
+				F55BF50A0340F75F01F32E98,
+				F55BF50B0340F75F01F32E98,
+				F55BF50C0340F76001F32E98,
+			);
+			isa = PBXGroup;
+			path = Paint;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF5090340F75F01F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = GradAnim.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF50A0340F75F01F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Gradient.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF50B0340F75F01F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Texture.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF50C0340F76001F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = TextureAnim.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF50D0340F76001F32E98 = {
+			children = (
+				F55BF50E0340F76001F32E98,
+				F55BF50F0340F76001F32E98,
+				F55BF5100340F76001F32E98,
+				F55BF5110340F76001F32E98,
+			);
+			isa = PBXGroup;
+			path = Paths;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF50E0340F76001F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Append.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF50F0340F76001F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = CurveQuadTo.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF5100340F76001F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = FillStroke.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF5110340F76001F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = WindingRule.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF5120340F76001F32E98 = {
+			children = (
+				F55BF5130340F76001F32E98,
+				F55BF5140340F76001F32E98,
+				F55BF5150340F76001F32E98,
+			);
+			isa = PBXGroup;
+			path = Transforms;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF5130340F76001F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Rotate.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF5140340F76001F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = SelectTx.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF5150340F76001F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = TransformAnim.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF5160340F76001F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = GlobalControls.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF5170340F76001F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = GlobalPanel.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF5180340F76001F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Intro.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF5190340F76001F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Java2Demo.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF51A0340F76001F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Java2DemoApplet.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF51B0340F76001F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = MemoryMonitor.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF51C0340F76001F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = PerformanceMonitor.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF51D0340F76001F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = RunWindow.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF51E0340F76001F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Surface.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF51F0340F76001F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = TextureChooser.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF5200340F76001F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Tools.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF5210340F76001F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = text.html;
+			path = Java2Demo.html;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF5220340F76001F32E98 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = README.txt;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55BF5230340F76001F32E98 = {
+			fileRef = F55BF4B40340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = fonts;
+			};
+		};
+		F55BF5240340F76001F32E98 = {
+			fileRef = F55BF4B60340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = images;
+			};
+		};
+		F55BF5250340F76001F32E98 = {
+			fileRef = F55BF4B70340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = images;
+			};
+		};
+		F55BF5260340F76001F32E98 = {
+			fileRef = F55BF4B80340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = images;
+			};
+		};
+		F55BF5270340F76001F32E98 = {
+			fileRef = F55BF4B90340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = images;
+			};
+		};
+		F55BF5280340F76001F32E98 = {
+			fileRef = F55BF4BA0340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = images;
+			};
+		};
+		F55BF5290340F76001F32E98 = {
+			fileRef = F55BF4BB0340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = images;
+			};
+		};
+		F55BF52A0340F76001F32E98 = {
+			fileRef = F55BF4BC0340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = images;
+			};
+		};
+		F55BF52B0340F76001F32E98 = {
+			fileRef = F55BF4BD0340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = images;
+			};
+		};
+		F55BF52C0340F76001F32E98 = {
+			fileRef = F55BF4BE0340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = images;
+			};
+		};
+		F55BF52D0340F76001F32E98 = {
+			fileRef = F55BF4BF0340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = images;
+			};
+		};
+		F55BF52E0340F76001F32E98 = {
+			fileRef = F55BF4C00340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = images;
+			};
+		};
+		F55BF52F0340F76001F32E98 = {
+			fileRef = F55BF4C10340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = images;
+			};
+		};
+		F55BF5300340F76001F32E98 = {
+			fileRef = F55BF4C20340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = images;
+			};
+		};
+		F55BF5330340F76001F32E98 = {
+			fileRef = F55BF4C50340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = images;
+			};
+		};
+		F55BF5340340F76001F32E98 = {
+			fileRef = F55BF4C60340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = images;
+			};
+		};
+		F55BF5350340F76001F32E98 = {
+			fileRef = F55BF4C70340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = images;
+			};
+		};
+		F55BF5360340F76001F32E98 = {
+			fileRef = F55BF4C80340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = images;
+			};
+		};
+		F55BF5370340F76001F32E98 = {
+			fileRef = F55BF4C90340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = images;
+			};
+		};
+		F55BF5380340F76001F32E98 = {
+			fileRef = F55BF4CA0340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = images;
+			};
+		};
+		F55BF5390340F76001F32E98 = {
+			fileRef = F55BF4CB0340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = images;
+			};
+		};
+		F55BF53A0340F76001F32E98 = {
+			fileRef = F55BF4CC0340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = images;
+			};
+		};
+		F55BF53B0340F76001F32E98 = {
+			fileRef = F55BF4CD0340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = images;
+			};
+		};
+		F55BF53C0340F76001F32E98 = {
+			fileRef = F55BF4CE0340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = images;
+			};
+		};
+		F55BF53D0340F76001F32E98 = {
+			fileRef = F55BF4CF0340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = images;
+			};
+		};
+		F55BF53E0340F76001F32E98 = {
+			fileRef = F55BF4D00340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = images;
+			};
+		};
+		F55BF53F0340F76001F32E98 = {
+			fileRef = F55BF4D10340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = images;
+			};
+		};
+		F55BF5400340F76001F32E98 = {
+			fileRef = F55BF4D20340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = images;
+			};
+		};
+		F55BF5410340F76001F32E98 = {
+			fileRef = F55BF4D30340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = images;
+			};
+		};
+		F55BF5420340F76001F32E98 = {
+			fileRef = F55BF4D40340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = images;
+			};
+		};
+		F55BF5430340F76001F32E98 = {
+			fileRef = F55BF4D60340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF5440340F76001F32E98 = {
+			fileRef = F55BF4D70340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF5450340F76001F32E98 = {
+			fileRef = F55BF4D80340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF5460340F76001F32E98 = {
+			fileRef = F55BF4D90340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF5470340F76001F32E98 = {
+			fileRef = F55BF4DA0340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF5480340F76001F32E98 = {
+			fileRef = F55BF4DB0340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF5490340F76001F32E98 = {
+			fileRef = F55BF4DC0340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF54A0340F76001F32E98 = {
+			fileRef = F55BF4DD0340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF54B0340F76001F32E98 = {
+			fileRef = F55BF4DE0340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF54C0340F76001F32E98 = {
+			fileRef = F55BF4DF0340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF54D0340F76001F32E98 = {
+			fileRef = F55BF4E00340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF54E0340F76001F32E98 = {
+			fileRef = F55BF4E30340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF54F0340F76001F32E98 = {
+			fileRef = F55BF4E40340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF5500340F76001F32E98 = {
+			fileRef = F55BF4E50340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF5510340F76001F32E98 = {
+			fileRef = F55BF4E60340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF5520340F76001F32E98 = {
+			fileRef = F55BF4E80340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF5530340F76001F32E98 = {
+			fileRef = F55BF4E90340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF5540340F76001F32E98 = {
+			fileRef = F55BF4EA0340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF5550340F76001F32E98 = {
+			fileRef = F55BF4EB0340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF5560340F76001F32E98 = {
+			fileRef = F55BF4ED0340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF5570340F76001F32E98 = {
+			fileRef = F55BF4EE0340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF5580340F76001F32E98 = {
+			fileRef = F55BF4EF0340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF5590340F76001F32E98 = {
+			fileRef = F55BF4F10340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF55A0340F76001F32E98 = {
+			fileRef = F55BF4F20340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF55B0340F76001F32E98 = {
+			fileRef = F55BF4F30340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF55C0340F76001F32E98 = {
+			fileRef = F55BF4F50340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF55D0340F76001F32E98 = {
+			fileRef = F55BF4F60340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF55E0340F76001F32E98 = {
+			fileRef = F55BF4F70340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF55F0340F76001F32E98 = {
+			fileRef = F55BF4F80340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF5600340F76001F32E98 = {
+			fileRef = F55BF4F90340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF5610340F76001F32E98 = {
+			fileRef = F55BF4FB0340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF5620340F76001F32E98 = {
+			fileRef = F55BF4FC0340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF5630340F76001F32E98 = {
+			fileRef = F55BF4FD0340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF5640340F76001F32E98 = {
+			fileRef = F55BF4FE0340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF5650340F76001F32E98 = {
+			fileRef = F55BF5000340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF5660340F76001F32E98 = {
+			fileRef = F55BF5010340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF5670340F76001F32E98 = {
+			fileRef = F55BF5020340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF5680340F76001F32E98 = {
+			fileRef = F55BF5030340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF5690340F76001F32E98 = {
+			fileRef = F55BF5050340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF56A0340F76001F32E98 = {
+			fileRef = F55BF5060340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF56B0340F76001F32E98 = {
+			fileRef = F55BF5070340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF56C0340F76001F32E98 = {
+			fileRef = F55BF5090340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF56D0340F76001F32E98 = {
+			fileRef = F55BF50A0340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF56E0340F76001F32E98 = {
+			fileRef = F55BF50B0340F75F01F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF56F0340F76001F32E98 = {
+			fileRef = F55BF50C0340F76001F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF5700340F76001F32E98 = {
+			fileRef = F55BF50E0340F76001F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF5710340F76001F32E98 = {
+			fileRef = F55BF50F0340F76001F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF5720340F76001F32E98 = {
+			fileRef = F55BF5100340F76001F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF5730340F76001F32E98 = {
+			fileRef = F55BF5110340F76001F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF5740340F76001F32E98 = {
+			fileRef = F55BF5130340F76001F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF5750340F76001F32E98 = {
+			fileRef = F55BF5140340F76001F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF5760340F76001F32E98 = {
+			fileRef = F55BF5150340F76001F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF5770340F76001F32E98 = {
+			fileRef = F55BF5160340F76001F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF5780340F76001F32E98 = {
+			fileRef = F55BF5170340F76001F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF5790340F76001F32E98 = {
+			fileRef = F55BF5180340F76001F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF57A0340F76001F32E98 = {
+			fileRef = F55BF5190340F76001F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF57B0340F76001F32E98 = {
+			fileRef = F55BF51A0340F76001F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF57C0340F76001F32E98 = {
+			fileRef = F55BF51B0340F76001F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF57D0340F76001F32E98 = {
+			fileRef = F55BF51C0340F76001F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF57E0340F76001F32E98 = {
+			fileRef = F55BF51D0340F76001F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF57F0340F76001F32E98 = {
+			fileRef = F55BF51E0340F76001F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF5800340F76001F32E98 = {
+			fileRef = F55BF51F0340F76001F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55BF5810340F76001F32E98 = {
+			fileRef = F55BF5200340F76001F32E98;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+	};
+	rootObject = 00E6828EFEC88D1A11DB9C8B;
+}

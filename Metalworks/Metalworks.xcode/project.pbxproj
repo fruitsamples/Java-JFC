@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 39;
+	objects = {
+		00E6828EFEC88D1A11DB9C8B = {
+			buildSettings = {
+			};
+			buildStyles = (
+				130F8B95001BDF0A11CA292A,
+				130F8B96001BDF0A11CA292A,
+			);
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = 00E6828FFEC88D1A11DB9C8B;
+			productRefGroup = 0120612AFEC8923411DB9C8B;
+			projectDirPath = "";
+			targets = (
+				130F8B90001BDF0A11CA292A,
+			);
+		};
+		00E6828FFEC88D1A11DB9C8B = {
+			children = (
+				010341B7FEEF030011DB9C8B,
+				F5B321B40340EEB301D41B1B,
+				F5B321B50340EEB301D41B1B,
+				F5B321B60340EEB301D41B1B,
+				F5B321B70340EEB301D41B1B,
+				F5B321B80340EEB301D41B1B,
+				F5B321C90340EEB301D41B1B,
+				F5B321CA0340EEB301D41B1B,
+				F5B321CB0340EEB301D41B1B,
+				F5B321CC0340EEB301D41B1B,
+				F5B321CD0340EEB301D41B1B,
+				F5B321CE0340EEB301D41B1B,
+				F5B321CF0340EEB301D41B1B,
+				F5B321D10340EEB301D41B1B,
+				F5B321D50340EEB301D41B1B,
+				F5B321B90340EEB301D41B1B,
+				F5B321C20340EEB301D41B1B,
+				F5B321D00340EEB301D41B1B,
+				F5B321D20340EEB301D41B1B,
+				6A8008AE02C7B68F0CC91562,
+				0120612AFEC8923411DB9C8B,
+			);
+			isa = PBXGroup;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//000
+//001
+//002
+//003
+//004
+//010
+//011
+//012
+//013
+//014
+		010341B7FEEF030011DB9C8B = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Metalworks.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0120612AFEC8923411DB9C8B = {
+			children = (
+				6A9ED92C02B0286D0CC91562,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//010
+//011
+//012
+//013
+//014
+//130
+//131
+//132
+//133
+//134
+		130F8B90001BDF0A11CA292A = {
+			buildPhases = (
+				130F8B91001BDF0A11CA292A,
+				130F8B93001BDF0A11CA292A,
+				130F8B94001BDF0A11CA292A,
+				6A0644BC02C7C42C0CC91562,
+			);
+			buildSettings = {
+				DISABLE_PARALLEL_BUILDING = YES;
+				INSTALL_PATH = /Developer/Examples/Java/JFC/Metalworks;
+				JAVA_ARCHIVE_CLASSES = YES;
+				JAVA_ARCHIVE_COMPRESSION = NO;
+				JAVA_ARCHIVE_TYPE = JAR;
+				JAVA_COMPILER = /usr/bin/javac;
+				JAVA_MANIFEST_FILE = Manifest;
+				JAVA_SOURCE_SUBDIR = .;
+				PRODUCT_NAME = Metalworks;
+				PURE_JAVA = YES;
+				REZ_EXECUTABLE = YES;
+			};
+			dependencies = (
+			);
+			isa = PBXToolTarget;
+			name = Metalworks;
+			productInstallPath = /Developer/Examples/Java/JFC/Metalworks;
+			productName = Metalworks;
+			productReference = 6A9ED92C02B0286D0CC91562;
+		};
+		130F8B91001BDF0A11CA292A = {
+			buildActionMask = 2147483647;
+			files = (
+				130F8B92001BDF0A11CA292A,
+				F5B321D60340EEB301D41B1B,
+				F5B321D70340EEB301D41B1B,
+				F5B321D80340EEB301D41B1B,
+				F5B321D90340EEB301D41B1B,
+				F5B321DA0340EEB301D41B1B,
+				F5B321E90340EEB301D41B1B,
+				F5B321EA0340EEB301D41B1B,
+				F5B321EB0340EEB301D41B1B,
+				F5B321EC0340EEB301D41B1B,
+				F5B321ED0340EEB301D41B1B,
+				F5B321EE0340EEB301D41B1B,
+				F5B321EF0340EEB301D41B1B,
+				F5B321F10340EEB301D41B1B,
+				F5B321F50340EEB301D41B1B,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		130F8B92001BDF0A11CA292A = {
+			fileRef = 010341B7FEEF030011DB9C8B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		130F8B93001BDF0A11CA292A = {
+			buildActionMask = 2147483647;
+			files = (
+				F5B321DB0340EEB301D41B1B,
+				F5B321DC0340EEB301D41B1B,
+				F5B321DD0340EEB301D41B1B,
+				F5B321DE0340EEB301D41B1B,
+				F5B321DF0340EEB301D41B1B,
+				F5B321E00340EEB301D41B1B,
+				F5B321E10340EEB301D41B1B,
+				F5B321E20340EEB301D41B1B,
+				F5B321E30340EEB301D41B1B,
+				F5B321E40340EEB301D41B1B,
+				F5B321E50340EEB301D41B1B,
+				F5B321E60340EEB301D41B1B,
+				F5B321E70340EEB301D41B1B,
+				F5B321E80340EEB301D41B1B,
+			);
+			isa = PBXJavaArchiveBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		130F8B94001BDF0A11CA292A = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		130F8B95001BDF0A11CA292A = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				ZERO_LINK = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		130F8B96001BDF0A11CA292A = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				ZERO_LINK = NO;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+//130
+//131
+//132
+//133
+//134
+//6A0
+//6A1
+//6A2
+//6A3
+//6A4
+		6A0644BC02C7C42C0CC91562 = {
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				F5A6A55403931C7C01C917B9,
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A8008AE02C7B68F0CC91562 = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = Manifest;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		6A9ED92C02B0286D0CC91562 = {
+			explicitFileType = "compiled.mach-o.executable";
+			fallbackIsa = PBXFileReference;
+			includeInIndex = 0;
+			isa = PBXZipArchiveReference;
+			path = Metalworks.jar;
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+//6A0
+//6A1
+//6A2
+//6A3
+//6A4
+//F50
+//F51
+//F52
+//F53
+//F54
+		F5A6A55403931C7C01C917B9 = {
+			fileRef = F5B321D00340EEB301D41B1B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5B321B40340EEB301D41B1B = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = AquaMetalTheme.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5B321B50340EEB301D41B1B = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = BigContrastMetalTheme.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5B321B60340EEB301D41B1B = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = ContrastMetalTheme.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5B321B70340EEB301D41B1B = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = DemoMetalTheme.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5B321B80340EEB301D41B1B = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = GreenMetalTheme.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5B321B90340EEB301D41B1B = {
+			children = (
+				F5B321BA0340EEB301D41B1B,
+				F5B321BB0340EEB301D41B1B,
+				F5B321BC0340EEB301D41B1B,
+				F5B321BD0340EEB301D41B1B,
+				F5B321BE0340EEB301D41B1B,
+				F5B321BF0340EEB301D41B1B,
+				F5B321C00340EEB301D41B1B,
+				F5B321C10340EEB301D41B1B,
+			);
+			isa = PBXGroup;
+			path = HelpFiles;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5B321BA0340EEB301D41B1B = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.gif;
+			path = back.gif;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5B321BB0340EEB301D41B1B = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = text.html;
+			path = credits.html;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5B321BC0340EEB301D41B1B = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.gif;
+			path = duke.gif;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5B321BD0340EEB301D41B1B = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.gif;
+			path = javalogo.gif;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5B321BE0340EEB301D41B1B = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = text.html;
+			path = metal.html;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5B321BF0340EEB301D41B1B = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = text.html;
+			path = metalworks.html;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5B321C00340EEB301D41B1B = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = text.html;
+			path = swing.html;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5B321C10340EEB301D41B1B = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = text.html;
+			path = toc.html;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5B321C20340EEB301D41B1B = {
+			children = (
+				F5B321C30340EEB301D41B1B,
+				F5B321C40340EEB301D41B1B,
+				F5B321C50340EEB301D41B1B,
+				F5B321C60340EEB301D41B1B,
+				F5B321C70340EEB301D41B1B,
+				F5B321C80340EEB301D41B1B,
+			);
+			isa = PBXGroup;
+			path = images;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5B321C30340EEB301D41B1B = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.gif;
+			path = palette_crop.gif;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5B321C40340EEB301D41B1B = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.gif;
+			path = palette_draw.gif;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5B321C50340EEB301D41B1B = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.gif;
+			path = palette_hand.gif;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5B321C60340EEB301D41B1B = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.gif;
+			path = palette_select.gif;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5B321C70340EEB301D41B1B = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.gif;
+			path = palette_text.gif;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5B321C80340EEB301D41B1B = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.gif;
+			path = palette_zoom.gif;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5B321C90340EEB301D41B1B = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = KhakiMetalTheme.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5B321CA0340EEB301D41B1B = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = MetalThemeMenu.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5B321CB0340EEB301D41B1B = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = MetalworksDocumentFrame.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5B321CC0340EEB301D41B1B = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = MetalworksFrame.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5B321CD0340EEB301D41B1B = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = MetalworksHelp.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5B321CE0340EEB301D41B1B = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = MetalworksInBox.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5B321CF0340EEB301D41B1B = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = MetalworksPrefs.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5B321D00340EEB301D41B1B = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = MyTheme.theme;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		F5B321D10340EEB301D41B1B = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = PropertiesMetalTheme.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5B321D20340EEB301D41B1B = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = README.txt;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5B321D50340EEB301D41B1B = {
+			fileEncoding = 5;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = UISwitchListener.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5B321D60340EEB301D41B1B = {
+			fileRef = F5B321B40340EEB301D41B1B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5B321D70340EEB301D41B1B = {
+			fileRef = F5B321B50340EEB301D41B1B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5B321D80340EEB301D41B1B = {
+			fileRef = F5B321B60340EEB301D41B1B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5B321D90340EEB301D41B1B = {
+			fileRef = F5B321B70340EEB301D41B1B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5B321DA0340EEB301D41B1B = {
+			fileRef = F5B321B80340EEB301D41B1B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5B321DB0340EEB301D41B1B = {
+			fileRef = F5B321BA0340EEB301D41B1B;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = HelpFiles;
+			};
+		};
+		F5B321DC0340EEB301D41B1B = {
+			fileRef = F5B321BB0340EEB301D41B1B;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = HelpFiles;
+			};
+		};
+		F5B321DD0340EEB301D41B1B = {
+			fileRef = F5B321BC0340EEB301D41B1B;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = HelpFiles;
+			};
+		};
+		F5B321DE0340EEB301D41B1B = {
+			fileRef = F5B321BD0340EEB301D41B1B;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = HelpFiles;
+			};
+		};
+		F5B321DF0340EEB301D41B1B = {
+			fileRef = F5B321BE0340EEB301D41B1B;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = HelpFiles;
+			};
+		};
+		F5B321E00340EEB301D41B1B = {
+			fileRef = F5B321BF0340EEB301D41B1B;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = HelpFiles;
+			};
+		};
+		F5B321E10340EEB301D41B1B = {
+			fileRef = F5B321C00340EEB301D41B1B;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = HelpFiles;
+			};
+		};
+		F5B321E20340EEB301D41B1B = {
+			fileRef = F5B321C10340EEB301D41B1B;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = HelpFiles;
+			};
+		};
+		F5B321E30340EEB301D41B1B = {
+			fileRef = F5B321C30340EEB301D41B1B;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = images;
+			};
+		};
+		F5B321E40340EEB301D41B1B = {
+			fileRef = F5B321C40340EEB301D41B1B;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = images;
+			};
+		};
+		F5B321E50340EEB301D41B1B = {
+			fileRef = F5B321C50340EEB301D41B1B;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = images;
+			};
+		};
+		F5B321E60340EEB301D41B1B = {
+			fileRef = F5B321C60340EEB301D41B1B;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = images;
+			};
+		};
+		F5B321E70340EEB301D41B1B = {
+			fileRef = F5B321C70340EEB301D41B1B;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = images;
+			};
+		};
+		F5B321E80340EEB301D41B1B = {
+			fileRef = F5B321C80340EEB301D41B1B;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = images;
+			};
+		};
+		F5B321E90340EEB301D41B1B = {
+			fileRef = F5B321C90340EEB301D41B1B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5B321EA0340EEB301D41B1B = {
+			fileRef = F5B321CA0340EEB301D41B1B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5B321EB0340EEB301D41B1B = {
+			fileRef = F5B321CB0340EEB301D41B1B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5B321EC0340EEB301D41B1B = {
+			fileRef = F5B321CC0340EEB301D41B1B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5B321ED0340EEB301D41B1B = {
+			fileRef = F5B321CD0340EEB301D41B1B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5B321EE0340EEB301D41B1B = {
+			fileRef = F5B321CE0340EEB301D41B1B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5B321EF0340EEB301D41B1B = {
+			fileRef = F5B321CF0340EEB301D41B1B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5B321F10340EEB301D41B1B = {
+			fileRef = F5B321D10340EEB301D41B1B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5B321F50340EEB301D41B1B = {
+			fileRef = F5B321D50340EEB301D41B1B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+	};
+	rootObject = 00E6828EFEC88D1A11DB9C8B;
+}
