@@ -1,55 +1,106 @@
+// !$*UTF8*$!
 {
-	00E6828EFEC88D1A11DB9C8B = {
-		activeBuildStyle = 130F8B95001BDF0A11CA292A;
-		activeTarget = 130F8B90001BDF0A11CA292A;
+	00E6828EFEC88D1A11DB9C8B /* Project object */ = {
+		activeArchitecture = i386;
+		activeBuildConfigurationName = Release;
+		activeExecutable = 130F8B98001BDF0A11CA292A /* java -jar SwingSet2.jar */;
+		activeTarget = 130F8B90001BDF0A11CA292A /* SwingSet2 */;
 		addToTargets = (
 		);
-	};
-	130F8B90001BDF0A11CA292A = {
-		activeExec = 1;
-		customExecs = {
-			macosx = (
-				130F8B98001BDF0A11CA292A,
-			);
-		};
-		targetExecs = {
-			macosx = (
-				130F8B97001BDF0A11CA292A,
-			);
-		};
-	};
-	130F8B97001BDF0A11CA292A = {
-		activeArgIndex = 2147483647;
-		argumentStrings = (
+		codeSenseManager = 4EE198040C74B69A0075EA7E /* Code sense */;
+		executables = (
+			130F8B98001BDF0A11CA292A /* java -jar SwingSet2.jar */,
 		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					131,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					243,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 208975491;
+			PBXWorkspaceStateSaveDate = 208975491;
+		};
+		sourceControlManager = 4EE198030C74B69A0075EA7E /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	130F8B90001BDF0A11CA292A /* SwingSet2 */ = {
+		activeExec = 0;
+	};
+	130F8B98001BDF0A11CA292A /* java -jar SwingSet2.jar */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+			YES,
+		);
+		argumentStrings = (
+			"-jar \"SwingSet2.jar\" ",
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
 		debuggerPlugin = JavaDebugging;
+		disassemblyDisplayState = 0;
 		dylibVariantSuffix = "";
 		enableDebugStr = 1;
 		environmentEntries = (
 		);
-		isa = PBXExecutable;
-		sourceDirectories = (
-		);
-	};
-	130F8B98001BDF0A11CA292A = {
-		activeArgIndex = 0;
-		argumentStrings = (
-			"-jar \"SwingSet2.jar\" ",
-		);
-		debuggerPlugin = JavaDebugging;
-		enableDebugStr = 1;
-		environmentEntries = (
-		);
-		isa = PBXExecutable;
-		launchableReference = 130F8B99001BDF0A11CA292A;
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		launchableReference = 130F8B99001BDF0A11CA292A /* java */;
+		libgmallocEnabled = 0;
 		name = "java -jar SwingSet2.jar";
 		sourceDirectories = (
 		);
 	};
-	130F8B99001BDF0A11CA292A = {
-		isa = PBXExecutableFileReference;
+	130F8B99001BDF0A11CA292A /* java */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = "compiled.mach-o.executable";
 		name = java;
 		path = /usr/bin/java;
-		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	4EE198030C74B69A0075EA7E /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	4EE198040C74B69A0075EA7E /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
 	};
 }

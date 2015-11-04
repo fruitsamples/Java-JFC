@@ -21,30 +21,6 @@
 		F527B9790340D57F011B268F /* save.gif in JavaArchive */ = {isa = PBXBuildFile; fileRef = F527B96D0340D57F011B268F /* save.gif */; settings = {JAVA_ARCHIVE_SUBDIR = resources; }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXBuildStyle section */
-		130F8B95001BDF0A11CA292A /* Development */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				ZERO_LINK = YES;
-			};
-			name = Development;
-		};
-		130F8B96001BDF0A11CA292A /* Deployment */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = YES;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				ZERO_LINK = NO;
-			};
-			name = Deployment;
-		};
-/* End PBXBuildStyle section */
-
 /* Begin PBXFileReference section */
 		010341B7FEEF030011DB9C8B /* Notepad.java */ = {isa = PBXFileReference; fileEncoding = 5; lastKnownFileType = sourcecode.java; path = Notepad.java; sourceTree = "<group>"; };
 		6A8008AE02C7B68F0CC91562 /* Manifest */ = {isa = PBXFileReference; fileEncoding = 5; lastKnownFileType = text; path = Manifest; sourceTree = "<group>"; };
@@ -137,16 +113,12 @@
 		00E6828EFEC88D1A11DB9C8B /* Project object */ = {
 			isa = PBXProject;
 			buildConfigurationList = 4C23438708DF2E9A008B0BD4 /* Build configuration list for PBXProject "Notepad" */;
-			buildSettings = {
-			};
-			buildStyles = (
-				130F8B95001BDF0A11CA292A /* Development */,
-				130F8B96001BDF0A11CA292A /* Deployment */,
-			);
+			compatibilityVersion = "Xcode 2.4";
 			hasScannedForEncodings = 1;
 			mainGroup = 00E6828FFEC88D1A11DB9C8B;
 			productRefGroup = 0120612AFEC8923411DB9C8B /* Products */;
 			projectDirPath = "";
+			projectRoot = "";
 			targets = (
 				130F8B90001BDF0A11CA292A /* Notepad */,
 			);
@@ -174,19 +146,6 @@
 				130F8B93001BDF0A11CA292A /* JavaArchive */,
 				F527B97A0340D6AE011B268F /* Frameworks */,
 			);
-			buildSettings = {
-				DISABLE_PARALLEL_BUILDING = YES;
-				INSTALL_PATH = /Developer/Examples/Java/JFC/Notepad;
-				JAVA_ARCHIVE_CLASSES = YES;
-				JAVA_ARCHIVE_COMPRESSION = NO;
-				JAVA_ARCHIVE_TYPE = JAR;
-				JAVA_COMPILER = /usr/bin/javac;
-				JAVA_MANIFEST_FILE = Manifest;
-				JAVA_SOURCE_SUBDIR = .;
-				PRODUCT_NAME = Notepad;
-				PURE_JAVA = YES;
-				REZ_EXECUTABLE = YES;
-			};
 			dependencies = (
 			);
 			name = Notepad;
@@ -251,7 +210,6 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
 			};
 			name = Debug;
 		};
@@ -261,7 +219,6 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
 			};
 			name = Release;
 		};
